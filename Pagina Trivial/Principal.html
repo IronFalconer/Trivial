@@ -6,7 +6,9 @@
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <title>Pregutados Para Tontos</title>
        <link rel="stylesheet" type="text/css" href="Estilo.css">
-       <script src="javascript/Codigo.js" language="javascript" type="text/javascript"></script>
+       <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+       <script src="javascript/CodigoButton.js" language="javascript" type="text/javascript"></script>
+       <script src="javascript/CodigoCaculo.js" language="javascript" type="text/javascript"></script>
     </head>
     <body>
         <h1 class="titulo">
@@ -21,119 +23,245 @@
             </p>
         </div>
         <div class="bloque">
-            <h2 class="pr", class="uno"> Pregunta 1 </h2>
-            <p class="respuesta" id="button1">respuesta a)</p>
-            <script>
-                //button1.onclick = function(event) {
-                //    if (event.which=1) {
-                //    alert('¡Genial!');
-                //    }
-                //};
-            </script>
-            <p class="respuesta" id="button2">respuesta b)</p> 
-            <script>
-                button2.onclick = function(event) {
-                    if (event.which=1) {
-                    alert('ErrOr!');
-                    }
-                };
-            </script>
-            <p class="respuesta" id="button3">respuesta c)</p> 
-            <script>
-                button3.onclick = function(event) {
-                    if (event.which=1) {
-                    alert('ErrOr!');
-                    }
-                };
-            </script>
+            <h2 class="pr"> Pregunta 1 </h2>
+            <p class="respuesta" id="button1.1" onclick="FbotonOn1()">respuesta a)</p>
+            
+            <p class="respuesta" id="button2.1" onclick="FbotonOn2()">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3.1" onclick="FbotonOn3()">respuesta c)</p> 
+            
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 2 </h2>
-            <p class="respuesta" id="button5">respuesta a)</p>
+            <p class="respuesta" id="button1.2">respuesta a)</p>
+            
+            <p class="respuesta" id="button2.3">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3.2">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 3 </h2>
+            <p class="respuesta" id="button1.3">respuesta a)</p>
+            
+            <p class="respuesta" id="button2.3">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3.3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 4 </h2>
+            <p class="respuesta" id="button1.3">respuesta a)</p>
+            
+            <p class="respuesta" id="button2.3">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3.3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 5 </h2>
+            <p class="respuesta" id="button1.3">respuesta a)</p>
+            
+            <p class="respuesta" id="button2.3">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3.3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 6 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 7 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 8 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 9 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 10 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 11 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 12 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 13 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 14 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 15 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 16 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 17 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 18 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 19 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 20 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 21 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 22 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 23 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 24 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 25 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 26 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 27 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 28 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 29 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
         <div class="bloque">
             <h2 class="pr"> Pregunta 30 </h2>
+            <p class="respuesta" id="button1">respuesta a)</p>
+            
+            <p class="respuesta" id="button2">respuesta b)</p> 
+            
+            <p class="respuesta" id="button3">respuesta c)</p>
         </div>
     </body>
 </html>
