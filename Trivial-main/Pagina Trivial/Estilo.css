@@ -1,0 +1,41 @@
+body{
+    background: linear-gradient(to bottom, rgb(56, 56, 255), purple 50%,rgba(255, 0, 191, 0.637)) ;
+}
+div{
+    padding-left: 2%;
+    border: 2px solid black;
+    margin-top: 5px;
+    background-color: aquamarine;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.intro{
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    background-color: aquamarine;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+.respuesta{
+    border: 2px solid black;
+    margin-left: 1%;
+    margin-right: 70%;
+    padding-left: 1.2%;
+    padding-right: 1%;
+    background-color: blanchedalmond;
+}
+.respuesta:hover{
+    background-color: red;
+}
+.titulo{
+    border: 2px solid black;
+    background-color: aquamarine;
+    text-align: center;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 300%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
