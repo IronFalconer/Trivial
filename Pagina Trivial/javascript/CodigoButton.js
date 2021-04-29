@@ -1,315 +1,59 @@
- //Pregunta 1
-function FbotonOn1() {
-    var uno = document.getElementById('button1.1');
+
+//Pregunta op1
+function boton1() {
+    var uno = document.getElementById('button1');
     if (uno.innerHTML == 'Correcto') 
       uno.innerHTML = 'respuesta a)';
     else uno.innerHTML = 'Correcto'; 
 }
-function FbotonOn2() {
-    var uno = document.getElementById('button2.1');
+function boton2() {
+    var uno = document.getElementById('button2');
     if (uno.innerHTML == 'Incorrecto') 
       uno.innerHTML = 'respuesta b)';
     else uno.innerHTML = 'Incorrecto'; 
 }
-function FbotonOn3() {
-    var uno = document.getElementById('button3.1');
+function boton3() {
+    var uno = document.getElementById('button3');
     if (uno.innerHTML == 'Incorrecto') 
       uno.innerHTML = 'respuesta c)';
     else uno.innerHTML = 'Incorrecto'; 
 }
-$(function () { //nos asegura que el dom ya está creado
-    
-   
-    //Pregunta 2
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 3
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 4
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 5
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 6
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    //Pregunta 7
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 8
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 9
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    //Pregunta 10
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 11
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 12
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 13
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 14
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    //Pregunta 15
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 16
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    //Pregunta 17
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 18
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    //Pregunta 19
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 20
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    //Pregunta 21
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 22
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 23
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 24
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 25
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 26
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    //Pregunta 27
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 28
-    $("#button1").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 29
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("Correctoo!!")
-    });
-    $("#button3").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    //Pregunta 30
-    $("#button1").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button2").on("click", function () { 
-        alert("ErrOrrrRr")
-    });
-    $("#button3").on("click", function () { 
-        alert("Correctoo!!")
-    });
+//Pregunta op2
+function boton4() {
+    var uno = document.getElementById('button4');
+    if (uno.innerHTML == 'Incorrecto') 
+      uno.innerHTML = 'respuesta a)';
+    else uno.innerHTML = 'Incorrecto'; 
+}
+function boton5() {
+    var uno = document.getElementById('button5');
+    if (uno.innerHTML == 'Correcto') 
+      uno.innerHTML = 'respuesta b)';
+    else uno.innerHTML = 'Correcto'; 
+}
+function boton6() {
+    var uno = document.getElementById('button6');
+    if (uno.innerHTML == 'Incorrecto') 
+      uno.innerHTML = 'respuesta c)';
+    else uno.innerHTML = 'Incorrecto'; 
+}
+//Pregunta op3
+function boton7() {
+    var uno = document.getElementById('button7');
+    if (uno.innerHTML == 'Incorrecto') 
+      uno.innerHTML = 'respuesta a)';
+    else uno.innerHTML = 'Incorrecto'; 
+}
+function boton8() {
+    var uno = document.getElementById('button8');
+    if (uno.innerHTML == 'Incorrecto') 
+      uno.innerHTML = 'respuesta b)';
+    else uno.innerHTML = 'Incorrecto'; 
+}
+function boton9() {
+    var uno = document.getElementById('button9');
+    if (uno.innerHTML == 'Correcto') 
+      uno.innerHTML = 'respuesta c)';
+    else uno.innerHTML = 'Correcto'; 
+}
 
-
-})
